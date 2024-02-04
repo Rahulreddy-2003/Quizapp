@@ -147,10 +147,11 @@ def save_score():
     data = request.json
     section_name = data.get("section_name")
     score = data.get("score")
-    print(f"Received score for {section_name}: {score}")
+    # print(f"Received score for {section_name}: {score}")
     section_scores[section_name] = score
     # Perform additional processing or save to a file/database as needed
-    return jsonify({"message": "Score saved successfully"})
+    # return jsonify({"message": "Score saved successfully"})
+    return
 
 @app.route("/get_scores")
 def get_scores():
