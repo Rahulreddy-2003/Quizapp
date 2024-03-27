@@ -11,9 +11,6 @@ Werkzeug
 Flask-WTF
 
 requests-cache
-pandas
-pyarrow
-plotly
-pyjanitor
+
 
 python-dateutil
